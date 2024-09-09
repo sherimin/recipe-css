@@ -30,6 +30,7 @@ This is my first coding challenge completed on [Frontend Mentor](https://www.fro
 
 ## Links
 - [Challenge Page](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+- [Project Live Link](https://sherimin.github.io/recipe-css/)
 
 ## Contributing
 
