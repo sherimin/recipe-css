@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Outfit;
+  font-weight: 500;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+  margin: 100px auto;
+  border-radius: 20px;
+  max-width: 48rem;
+}
+
+h1,
+h3,
+h4,
+p,
+ul,
+ol,
+table {
+  margin: 0 30px 10px 30px;
+}
+
+.mainText {
+  font-family: "Outfit";
+}
+.titleText {
+  font-family: "Young serif";
+  font-weight: 400;
+  font-size: 28px;
+}
+main {
+  color: hsl(30, 10%, 34%);
+}
+img {
+  max-width: 95%;
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+h1 {
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 40px;
+  font-family: "Young serif";
+  color: hsl(24, 5%, 18%);
+}
+h3 {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-family: "Young serif";
+  font-size: 1.625rem;
+}
+h4 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.25rem;
+}
+hr {
+  margin: 0 20px 20px;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+ul {
+  padding-left: 20px;
+}
+.li-bold {
+  font-weight: bold;
+}
+p {
+  margin-bottom: 25px;
+}
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px 10px 10px 0px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.preparation-time ul {
+  padding-left: 20px;
+}
+.preparation-time li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients title {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  margin-top: 20;
+}
+.ingredients ul {
+  padding-left: 10px;
+}
+.instructions ol {
+  margin-left: 20px;
+}
+.nutrition p {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+table {
+  width: 90%;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+  font-weight: 400;
+}
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  padding: 15px;
+}
+th:last-child {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+ol {
+  padding: 5px;
+}
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+ul {
+  padding: 5px;
+}
+li {
+  padding: 10px;
+}
+strong {
+  font-weight: 500;
+}
+
+/* Mobile Screen */
+@media (max-width: 768px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  hr {
+    margin: 30px;
+  }
+  header {
+    margin-bottom: 20px;
+  }
+  footer {
+    display: none;
+  }
+}
