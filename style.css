@@ -14,6 +14,7 @@ body {
   align-items: center;
   font-family: Outfit;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .container {
@@ -26,12 +27,11 @@ body {
 
 h1,
 h3,
-h4,
 p,
 ul,
 ol,
 table {
-  margin: 0 30px 10px 30px;
+  margin: 0 30px 20px 30px;
 }
 
 .mainText {
@@ -49,7 +49,7 @@ img {
   max-width: 95%;
   display: block;
   margin: 15px auto;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 h1 {
   font-weight: 400;
@@ -60,7 +60,7 @@ h1 {
   color: hsl(24, 5%, 18%);
 }
 h3 {
-  font-weight: 600;
+  font-weight: 400;
   color: hsl(14, 45%, 36%);
   margin-top: 20px;
   margin-bottom: 10px;
@@ -71,6 +71,7 @@ h3 {
 h4 {
   color: hsl(332, 51%, 32%);
   font-size: 1.25rem;
+  margin: 0 30px 10px 30px;
 }
 hr {
   margin: 0 20px 20px;
@@ -82,14 +83,15 @@ ul {
 .li-bold {
   font-weight: bold;
 }
-p {
-  margin-bottom: 25px;
+.container p {
+  margin-bottom: 30px;
 }
 .preparation-time {
   background-color: hsl(330, 100%, 98%);
-  padding: 20px 10px 10px 0px;
+  padding: 20px 10px 2px 0;
   margin: 20px;
   border-radius: 10px;
+  line-height: 1;
 }
 .preparation-time ul {
   padding-left: 20px;
@@ -104,16 +106,23 @@ p {
 }
 .ingredients ul {
   padding-left: 10px;
+  line-height: 0.8;
 }
 .instructions ol {
   margin-left: 20px;
+  line-height: 1.5;
+  padding-left: 25px;
+}
+.instructions span {
+    font-weight: bold; 
+    color: hsl(30, 10%, 34%)
 }
 .nutrition p {
-  margin-top: 25px;
-  margin-left: 20px;
+  margin: 20px auto 5px 20px;
 }
 table {
   width: 90%;
+  line-height: 1;
 }
 th,
 td {
@@ -130,6 +139,10 @@ td {
 th:last-child {
   color: hsl(30, 10%, 34%);
   font-weight: bold;
+}
+tr:last-child th, 
+tr:last-child td {
+  border-bottom: none;
 }
 ol {
   padding: 5px;
