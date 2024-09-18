@@ -20,13 +20,13 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   padding: 1.5rem;
-  margin: 100px auto;
+  margin: 120px auto;
   border-radius: 20px;
   max-width: 48rem;
 }
 
 h1,
-h3,
+h2,
 p,
 ul,
 ol,
@@ -59,7 +59,7 @@ h1 {
   font-family: "Young serif";
   color: hsl(24, 5%, 18%);
 }
-h3 {
+h2 {
   font-weight: 400;
   color: hsl(14, 45%, 36%);
   margin-top: 20px;
@@ -68,7 +68,7 @@ h3 {
   font-family: "Young serif";
   font-size: 1.625rem;
 }
-h4 {
+h3 {
   color: hsl(332, 51%, 32%);
   font-size: 1.25rem;
   margin: 0 30px 10px 30px;
@@ -88,13 +88,17 @@ ul {
 }
 .preparation-time {
   background-color: hsl(330, 100%, 98%);
-  padding: 20px 10px 2px 0;
+  padding: 20px 10px 5px 0px;
   margin: 20px;
   border-radius: 10px;
   line-height: 1;
 }
+.preparation-time li {
+  padding: 10px;
+}
 .preparation-time ul {
   padding-left: 20px;
+  padding-bottom: 0;
 }
 .preparation-time li::marker {
   color: hsl(14, 45%, 36%);
@@ -104,6 +108,9 @@ ul {
   color: hsl(14, 45%, 36%);
   margin-top: 20;
 }
+.ingredients li {
+  padding: 10px;
+}
 .ingredients ul {
   padding-left: 10px;
   line-height: 0.8;
@@ -112,6 +119,9 @@ ul {
   margin-left: 20px;
   line-height: 1.5;
   padding-left: 25px;
+}
+.instructions li {
+  padding: 5px 10px 5px 10px;
 }
 .instructions span {
     font-weight: bold; 
@@ -153,9 +163,6 @@ ol li::marker {
 }
 ul {
   padding: 5px;
-}
-li {
-  padding: 10px;
 }
 strong {
   font-weight: 500;
